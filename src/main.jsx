@@ -12,12 +12,12 @@ import User from './components/User/User.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home/>} />
-      <Route path='contact' element={<Contact/>} />
-      <Route path='about' element={<About/>} />
-      <Route path='github' element={<Github/>} />
-      <Route path='user/:userId' element={<User/>} />
+    <Route path="/Dynamic-app-sample/" element={<Layout/>}>
+      <Route path="/Dynamic-app-sample/" element={<Home/>} />
+      <Route path="/Dynamic-app-sample/contact" element={<Contact/>} />
+      <Route path="/Dynamic-app-sample/about" element={<About/>} />
+      <Route path="/Dynamic-app-sample/github" element={<Github/>} />
+      <Route path="/Dynamic-app-sample/user/:userId" element={<User/>} />
     </Route>
   )
 )
